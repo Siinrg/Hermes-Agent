@@ -15,7 +15,7 @@
     "openai": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "typescript": "latest"
+    "typescript": "5.9.3"
   },
   "engines": {
     "node": ">=20.9.0"
