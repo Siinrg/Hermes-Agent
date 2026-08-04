@@ -14,7 +14,7 @@ MVP vocale di Hermes: premi il microfono, parla, ricevi una risposta testuale e 
 
 ## Avvio locale
 
-1. Installa Node.js 20 o successivo.
+1. Installa Node.js 20.9 o successivo.
 2. Installa le dipendenze:
 
 ```bash
@@ -56,6 +56,10 @@ Apri `http://localhost:3000` con Google Chrome o Microsoft Edge e autorizza il m
 3. Esegui il deploy.
 
 Non inserire mai la chiave API nel codice, nei file pubblici o in GitHub.
+
+## Controllo automatico
+
+Ogni modifica sul branch `main` avvia una build di produzione tramite GitHub Actions.
 
 ## Limiti del primo MVP
 
